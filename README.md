@@ -28,19 +28,19 @@ Heavily inspired by <a href="https://github.com/caronc/apprise">caronc/apprise</
 ### Using the snap
 
 ```bash
-$ sudo snap install shoutrrr
+sudo snap install shoutrrr
 ```
 
 ### Using the Go CLI
 
 ```bash
-$ go install github.com/containrrr/shoutrrr/shoutrrr@latest
+go install github.com/containrrr/shoutrrr/shoutrrr@latest
 ```
 
 ### From Source
 
 ```bash
-$ go build -o shoutrrr ./shoutrrr
+go build -o shoutrrr ./shoutrrr
 ```
 
 ## Quick Start
@@ -82,7 +82,7 @@ Start by running the `build.sh` script.
 You may then run send notifications using the shoutrrr executable:
 
 ```shell
-$ shoutrrr send [OPTIONS] <URL> <Message [...]>
+shoutrrr send [OPTIONS] <URL> <Message [...]>
 ```
 
 ### From a GitHub Actions workflow
